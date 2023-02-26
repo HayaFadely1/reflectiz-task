@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* change the mat-radio button and save button color */
+.mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle {
+    border-color: black;
+}
+.mat-radio-button.mat-accent .mat-radio-inner-circle{
+background-color: black;
+}
+.mat-raised-button.mat-primary{
+    background-color: black;
+}
+.mat-primary .mat-pseudo-checkbox-checked {
+    background: black;
+}

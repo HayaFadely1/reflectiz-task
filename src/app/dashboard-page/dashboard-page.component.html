@@ -1,0 +1,28 @@
+  <div class="counter">
+    <div class="wrapper">
+      <span>Attempt Count: {{ getAttemptCount() }}</span>
+      <span>
+        | Success Count: {{ getSuccessCount() }} (
+        <span id="percent">
+          {{ ((getSuccessCount() / getAttemptCount()) * 100).toFixed(1) }}%)
+        </span>
+      </span>
+    </div>
+  </div>
+  <div class="charts">
+    <div class="chartContainer" id="barchart">
+      <app-bar-chart></app-bar-chart>
+      <p class="chart-title">Most picked engine type by gender</p>
+    </div>
+    <div class="chartContainer">
+      <app-radar-chart></app-radar-chart>
+      <p class="chart-title">Most common hobby amongst owners per gender</p>
+    </div>
+    <div class="chartContainer">
+      <app-pie-chart></app-pie-chart>
+      <p class="chart-title">The owners age</p>
+    </div>
+  </div>
+  <div class="table">
+    <app-table></app-table>
+  </div>

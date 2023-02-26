@@ -1,0 +1,48 @@
+
+.form-container {
+  margin: auto;
+  width: 90%;
+  margin-top: 5vh;
+}
+
+@media only screen and (min-width: 720px) {
+}
+
+.full-width {
+  width: 100%;
+}
+
+.top-padding {
+  padding-top: 3px;
+}
+
+.margin-left mat-radio-button:not(:first-child) {
+  margin-left: 10px;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+#genderLbl,
+#motorTypeLbl {
+  margin-bottom: 0.5vh;
+  margin-top: 1vh;
+  text-decoration: underline;
+  width: 90px;
+}
+
+.radioBtn mat-radio-button {
+  width: 80px;
+}
+
+.invalid {
+  color: red;
+}
+
+.message {
+  text-align: center;
+  color: red;
+  font-weight: 500;
+  margin-top: 3vh;
+}

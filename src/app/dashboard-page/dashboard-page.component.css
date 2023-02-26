@@ -1,0 +1,62 @@
+.counter {
+  text-align: right;
+
+  display: flex;
+  padding: 8px;
+  float: right;
+  background-color: rgba(206, 213, 221, 0.507);
+  box-shadow: 1px 1px 6px #44444434;
+  margin: 2.5vh 9vw;
+  /* margin-top: 2vh; */
+}
+
+.counter span {
+  text-align: left;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#percent {
+  font-size: larger;
+}
+.chart-title{
+  font-weight: bold;
+  font-size: 15px;
+  margin: 5px;
+}
+
+
+.charts {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  margin-top: 6vh;
+  width: 90%;
+}
+
+.chartContainer {
+  margin-bottom: 2vh;
+  width: 33%;
+}
+
+#barchart {
+  width: 400px;
+}
+
+@media only screen and (max-width: 720px) {
+  .charts {
+    flex-direction: column;
+  }
+
+  .chartContainer {
+    margin-top: 6vh;
+    width: 100%;
+  }
+  #barchart {
+    border: none;
+  }
+}
+
